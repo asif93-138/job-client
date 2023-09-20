@@ -1,0 +1,27 @@
+.job-header {
+    text-align: center;
+    padding: 30px 0;
+}
+.job-header h2 {
+    font-size: 30px;
+}
+.job-header p {
+    font-size: 14px;
+}
+.jobs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .jobs {
+        display: block;
+    }
+    .job-header {
+        padding: 0 20px;
+    }
+    .job-container {
+        margin-bottom: 30px;
+    }
+}

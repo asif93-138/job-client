@@ -1,0 +1,41 @@
+.card-s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+.c-txt {
+    display: flex;
+    align-items: center;
+}
+.red-sp {
+    margin: 0;
+}
+.cs-sp {
+    margin: 10px 0 5px 0;
+}
+.rez {
+    width: 150px;
+    
+}
+.w-fix {
+    width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .card-s {
+        display: block;
+        margin: 20px;
+        padding: 20px;
+    }
+    .c-txt {
+        display: block;
+    }
+    .w-fix {
+        width: auto;
+        margin-bottom: 10px;
+    }
+}

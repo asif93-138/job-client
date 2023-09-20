@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.list div {
+    width: 180px;
+    border: 1px solid #efecff;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #efecff;
+}
+.list div p {
+    font-size: 14px;
+}
+.list div h6 {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .list {
+        display: block;
+    }
+    .list div {
+        width: 250px;
+        text-align: center;
+        margin: 20px auto;
+        border: 1px solid #efecff;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: #efecff;
+    }
+}

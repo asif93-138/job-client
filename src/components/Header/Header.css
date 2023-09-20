@@ -1,0 +1,31 @@
+.header {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    height: 25px;
+    width: auto;
+}
+.header div a {
+    padding: 0 10px;
+    
+}
+.brand-name {
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 10px 0;
+        display: block;
+        text-align: center;
+    }
+    .header div {
+        margin-bottom: 10px;
+    }
+    .brand-name {
+        margin-bottom: 10px;
+    }
+}

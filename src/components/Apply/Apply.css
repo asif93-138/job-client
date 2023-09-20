@@ -1,0 +1,20 @@
+.horz-al {
+    text-align: center;
+}
+.pos-del {
+    text-align: right;
+}
+.bg-img {
+    background-image: url('../../assets/Images/Vector.png');
+    height: 150px;
+    margin-bottom: 40px;
+}
+.h-place {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .pos-del {
+        text-align: center;
+    }
+}

@@ -1,0 +1,35 @@
+.job-details {
+    background-image: url('../../assets/Images/Vector.png');
+    justify-content: center;
+   
+    display: flex;
+    align-items: center;
+}
+.job-details-card {
+    background-color: #f4f1ff;
+    margin-bottom: 10px;
+    padding: 30px;
+
+}
+.job-details-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.s-1 {
+    padding: 30px;
+}
+.ap-btn {
+    width: 100%;
+}
+.csp {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .job-details-info {
+        display: block;
+   
+        margin: 30px 0;
+    }
+}

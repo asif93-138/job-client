@@ -1,0 +1,29 @@
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 30px;
+    
+}
+.banner img {
+    width: 550px;
+}
+.banner-text span {
+    color: #8687fe;
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;   
+    }
+    .mb-res {
+        max-width: 100%;
+    }
+    .banner-text {
+        padding: 10px;
+    }
+    .h1-m {
+        margin: 0;
+    }
+}

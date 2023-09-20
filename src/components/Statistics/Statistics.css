@@ -1,0 +1,27 @@
+.stat {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.area {
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .area {
+        margin-left: 0px;
+        max-width: 100% !important;
+    }
+    .stat {
+        text-align: center;
+        margin-top: 00px;
+        margin-bottom: 00px;
+        max-width: 100% !important;
+    }
+    .recharts-wrapper {
+        max-width: 100% !important;
+    }
+    .recharts-surface {
+        max-width: 100% !important;
+    }
+}
