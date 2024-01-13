@@ -55,6 +55,46 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.footer {
+  background-color: black;
+  color: white;
+  padding: 80px 100px;
+  margin-top: 30px;
+}
+.footer a {
+  color: white;
+  font-size: larger;
+}
+.footer a:hover {
+  color: white;
+  font-size: xx-large;
+}
+.footer h5 {
+  margin: 0;
+}
+.footer p {
+  margin: 0;
+}
+.f-t-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.f-img {margin-top: 10px; width: 120px;}
+
+@media (max-width: 600px) {
+  .f-t-1 {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .f-t-1 div  {
+    margin: 20px auto;
+  }
+  .footer {
+    padding: 30px;
+    text-align: center;
+  }
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -67,4 +107,5 @@ button:focus-visible {
   button {
     background-color: #8687fe;
   }
+
 }

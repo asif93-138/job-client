@@ -14,7 +14,7 @@ const Header = () => {
                 <ActiveLink className="linking" to='/appliedjobs'><span className="linking">Applied Jobs</span></ActiveLink>
                 <ActiveLink className="linking" to='/blogs'><span className="linking">Blogs</span></ActiveLink>
            </div>
-           <button type='button' onClick={() => {alert('eto click koros kn!!!')}}>Start Applying</button>
+           <button type='button' onClick={() => {alert('link does not work!')}}>Start Applying</button>
         </nav>
     );
 };
