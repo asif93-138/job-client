@@ -10,7 +10,7 @@ import Job from './components/Job/Job';
 import Home from './components/Layout/Home';
 import Apply from './components/Apply/Apply';
 import Statistics from './components/Statistics/Statistics';
-import Blogs from './components/Blogs/Blogs';
+
 import JobDetail from './components/JobDetail/JobDetail';
 import PON from './components/PON/PON';
 import jobLoader from './jobLoader/jobLoader';
@@ -40,10 +40,6 @@ const router = createBrowserRouter([
       {
         path: 'statistics',
         element: <Statistics></Statistics>,
-      },
-      {
-        path: 'blogs',
-        element: <Blogs></Blogs>,
       },
       {
         path: '*',

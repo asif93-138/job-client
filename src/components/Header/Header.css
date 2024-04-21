@@ -9,11 +9,16 @@
     width: auto;
 }
 .header div a {
-    padding: 0 10px;
-    
+    padding: 0 10px; 
 }
 .brand-name {
     font-size: xx-large;
+}
+.brand-link {
+    color: black;
+}
+.brand-link:hover {
+    color: black;
 }
 
 @media screen and (max-width: 600px) {
